@@ -4,26 +4,32 @@
 <label for="nom" class="text">Nom</label>
 <input type="text" id="nom" [(ngModel)]="nom" name="nom" >
 <br>
+<br>
 <label for="prenom" class="text">Prénom</label>
 <input type="text" id="prenom" [(ngModel)]="prenom" name="prenom" >
+<br>
 <br>
 <label for="email" class="text">email</label>
 <input type="email" id="email" [(ngModel)]="email" name="email" >
 <br>
+<br>
 <label for="Materiel" class='text'>Matériel</label>
 <input type="text" id="materiel" [(ngModel)]="materiel" name="materiel" >
+<br>
 <br>
 <label for="pc" class='text'>pc</label>
 <input type="text" id="pc" [(ngModel)]="pc" name="pc" >
 <br>
+<br>
 <button type="submit">Enregister</button>
 
 </form>
-
+<br>
+<br>
 <h2>Liste des employées</h2>
 <ul>
   <li *ngFor="let employe of listeEmployees; let i = index" class='text' >
-  {{i+1}}. <br> {{employe.nom}} - <br>  {{employe.prenom}} - <br>  {{employe.email}}- <br> {{employe.materiel}} - <br> {{employe.pc}}
+   id  : {{i+1}} <br><br> Nom  :  {{employe.nom}}  <br><br> Prénom  :  {{employe.prenom}}  <br><br> Email  :   {{employe.email}} <br><br> Matériel  :  {{employe.materiel}}  <br><br> Pc  :  {{employe.pc}}
 
 
 
