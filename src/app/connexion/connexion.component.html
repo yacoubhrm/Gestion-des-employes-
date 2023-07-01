@@ -1,0 +1,22 @@
+<h2>Page de connexion</h2>
+<form (submit)="login()">
+  <label for="username" class='text'>Nom d'utilisateur:</label>
+  <input type="text" id="username" [(ngModel)]="username" name="username">
+<br>
+<br>
+
+  <label for="password" class='text'>mots de passe:</label>
+  <input type="password" id="password" [(ngModel)]="password"  name="password">
+<br>
+<br>
+  <button type="submit">
+    Connexion</button>
+<br>
+<br>
+
+    <div *ngIf="errorMessage" class="error-message" class='text'>
+      {{errorMessage}}
+    </div>
+
+
+</form>
