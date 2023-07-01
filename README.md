@@ -1,29 +1,21 @@
-# GestionDesEmployes
+Gestion des Employés
+Ce projet a été généré avec Angular CLI version 16.1.2.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.2.
+Serveur de développement
+Pour exécuter le serveur de développement, utilisez la commande ng serve. Accédez à http://localhost:4200/ dans votre navigateur. L'application se rechargera automatiquement si vous effectuez des modifications dans les fichiers source.
 
-## Development server
+Fonctionnalités
+Accueil
+La page d'accueil contient un style et un bouton qui redirige vers la page de connexion.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Connexion
+La page de connexion permet de se connecter avec des identifiants prédéfinis. L'identifiant "ROOT" et le mot de passe "root" sont acceptés, tandis que les autres identifiants seront refusés. Une fois connecté, l'utilisateur est redirigé vers la page de création des employés.
 
-## Code scaffolding
+Création des employés
+La page de création des employés permet d'insérer les informations relatives à un employé et d'afficher la liste des employés mise à jour. Cette page contient également une barre de recherche qui n'est pas visible sur les pages d'accueil et de connexion.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Barre de navigation
+La barre de navigation contient 4 destinations : "Création des employés", "Gestion des employés" et un bouton "Déconnexion" qui redirige vers la page d'accueil.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-#Gestion-des-employés-
-#Gestion-des-employés-
+Gestion des employés
+Dans cette page, vous pouvez modifier les informations de n'importe quel employé de la liste et supprimer un employé.
