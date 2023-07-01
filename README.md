@@ -1,15 +1,11 @@
 #Gestion des Employés
-
 Ce projet a été généré avec Angular CLI version 16.1.2.
 
 ##Serveur de développement
-
 Pour exécuter le serveur de développement, utilisez la commande ng serve. Accédez à http://localhost:4200/ dans votre navigateur. L'application se rechargera automatiquement si vous effectuez des modifications dans les fichiers source.
 
-##Fonctionnalités
-
+#Fonctionnalités
 ##Accueil
-
 La page d'accueil contient un style et un bouton qui redirige vers la page de connexion.
 
 ##Connexion
@@ -23,3 +19,18 @@ La barre de navigation contient 4 destinations : "Création des employés", "Ges
 
 ##Gestion des employés
 Dans cette page, vous pouvez modifier les informations de n'importe quel employé de la liste et supprimer un employé.
+
+#Lancement de l'application
+Suivez ces étapes pour lancer l'application :
+
+##Ouvrez un terminal.
+Tapez les commandes suivantes respectivement :
+bash
+Copy code
+git clone https://github.com/yacoubhrm/Gestion-des-employes-.git
+cd Gestion-des-employes-/
+npm install
+ng serve
+##Ouvrez votre navigateur 
+accédez à l'adresse suivante : http://localhost:4200/
+Vous pouvez maintenant utiliser l'application.
